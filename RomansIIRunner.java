@@ -2,13 +2,13 @@
 //www.apluscompsci.com
 //Name -
 
-public class RomansIIRunner
+public class RomansRunner
 {
 	public static void main( String args[] )
 	{
-		RomansII w = new RomansII();
-		System.out.println( w.getNumber( "V V V" ) );
-		System.out.println( w.getNumber( "I I D D" ) );
+		Romans w = new Romans();
+		System.out.println( w.getNumber( "V" ) );
+		System.out.println( w.getNumber( "D" ) );
 		System.out.println( w.getNumber( "M" ) );
 	}
 }
